@@ -23,8 +23,16 @@
   <div class="card p-3 my-3 bg-dark" style="max-width: 600px; margin: auto;">
     <input id="taskTitle" class="form-control mb-2" placeholder="Task title">
     <textarea id="taskDesc" class="form-control mb-2" placeholder="Description"></textarea>
-    <button  type="button" class="btn bg-danger-subtle fw-bold" id="addTaskBtn">Add Task</button>
-    <button  type="button" class="btn btn-danger d-none fw-bold" id="updateTaskBtn">Update Task</button>
+    <input id="fullName" class="form-control mb-2" placeholder="Full Name">
+  <input id="taskemail" type="email" class="form-control mb-2" placeholder="Email">
+  <input id="taskphone" class="form-control mb-2" placeholder="Phone Number">
+  <input id="taskaddress" class="form-control mb-2" placeholder="Address">
+  <textarea id="tasksummary" class="form-control mb-2" placeholder="Profile Summary"></textarea>
+  <input id="taskskills" class="form-control mb-2" placeholder="Skills (comma separated)">
+  <input id="taskprojects" class="form-control mb-2" placeholder="Projects (comma separated)">
+
+    <button  type="button" class="btn bg-danger-subtle fw-bold" id="addTaskBtn">Save</button>
+    <button  type="button" class="btn btn-danger d-none fw-bold" id="updateTaskBtn">Update Save</button>
   </div>
 
   <ul id="taskList" class="list-group mb-4" style="max-width: 600px; margin: auto;"></ul>
